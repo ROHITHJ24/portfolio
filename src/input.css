@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+ font-family: ubuntu,'sans-serif'; 
+}u
+body{
+    background-image:  url('/assets/bgbluee.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+a {
+
+    padding: 22px 30px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+input {
+
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.car-cont {
+    z-index: 100;
+    transform: translatey(310px);
+}
+
+.ecommerce {
+    transition: filter 1s ease-in-out;
+}
+
+.card:hover {
+    .ecommerce {
+        filter: brightness(30%);
+    }
+
+    .car-cont {
+        transform: translateY(0px);
+
+    }
+}
+
+.hello-guys {
+
+    animation: in-animation, fade-in 1s ease-in-out;
+
+}
+
+.project-cont {
+    animation: in-animation 1s ease-in-out forwards;
+    /* animation-timeline: view();
+    animation-range: entry 0% cover 40%; */
+}
+
+.experience-card:hover
+{
+    transform: translatey(-10px);
+    box-shadow: none;
+}
