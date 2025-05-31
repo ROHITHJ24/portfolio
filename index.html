@@ -25,8 +25,8 @@
     </head>
     
     <body class="w-full bg-purple-400 ">
-        <header>
-            <a href="#navbar" class="fixed bottom-0 right-0 bg-blue-700 text-white hover:bg-black hover:text-white p-2 ">Go to top</a>
+        <header class="navbar">
+            <a href="#navbar" class=" fixed bottom-0 right-0 bg-blue-700 text-white hover:bg-black hover:text-white p-2 ">Go to top</a>
             <nav id="navbar"
                 class="bg-black shadow-black shadow-[0_0_60px_rgba(0,0,10px,0.5)] w-full p-3 flex items-center text-white justify-between">
                 <h1 class="text-2xl">PORTFOLIO</h1>
@@ -41,9 +41,9 @@
             </nav>
         </header>
     
-        <main class="p-10 md:p-20 space-y-20 w-full">
+        <main class=" p-10 md:p-20 space-y-20 w-full">
             <!-- Hero Section -->
-            <div class="flex flex-col-reverse md:flex-row justify-between items-center border bg-amber-50 border-gray-300 p-10 rounded-xl shadow-xl shadow-gray-400 overflow-hidden">
+            <div  class="hero-section flex flex-col-reverse md:flex-row justify-between items-center border bg-amber-50 border-gray-300 p-10 rounded-xl shadow-lg shadow-gray-400 overflow-hidden">
                 <div class="hello-guys">
                     <h1 class="font-bold sm:text-md md:text-2xl">Hi <br> I'm <span class="text-blue-700">ROHITH J</span><br>a Frontend Developer</h1>
                     <p class="sm:text-sm md:text-xl">I’m a Full Stack Developer with a strong passion <br> for front-end design and development. I love building smooth, <br> responsive, and user-friendly interfaces using React, while also <br>handling the backend with Node.js and MongoDB. I enjoy turning <br>ideas into clean, functional products and constantly explore <br>new tools to improve my craft.</p>
@@ -56,9 +56,9 @@
             </div>
     
             <!-- Experience Section -->
-            <div id="experience" class="p-10 bg-amber-50 shadow-gray-400 shadow-[0_0_30px_rgba(0,0,0,1)] rounded-xl">
+            <div id="experience" class="appear-box p-10 bg-amber-50 shadow-gray-400 shadow-[0_0_30px_rgba(0,0,0,0.5)] rounded-xl">
                 <h1 class="text-2xl underline text-center">Internships & Training </h1>
-                <div class="bg-amber-50 p-5 md:p-10 space-y-5 rounded-xl flex flex-col md:flex-row md:space-y-0 items-center justify-evenly">
+                <div class=" bg-amber-50 p-5 md:p-10 space-y-5 rounded-xl flex flex-col md:flex-row md:space-y-0 items-center justify-evenly">
     
                     <div class="experience-card items-center border border-gray-300 h-25 w-35 md:w-70 md:h-50 p-4 shadow-gray-400 shadow-lg rounded-xl">
                         <img src="assets/nurture.jpg" alt="nurture" class="size-12 rounded-full inline-block">
@@ -77,13 +77,12 @@
                     </div>
                 </div>
             </div>
-            <div id="skills" class="p-10 bg-amber-50 shadow-gray-400 shadow-[0_0_30px_rgba(0,0,0,1)] rounded-xl">
+
+
+            <!-- Skills Section -->
+            <div id="skills" class="appear-box p-10 bg-amber-50 shadow-gray-400 shadow-[0_0_30px_rgba(0,0,0,1)] rounded-xl">
                 <h1 class="text-2xl underline text-center mb-6">Skills</h1>
-            
-              
-            
-                <!-- Skills Section -->
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
+                <div class="appear-box grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
                     <div class="flex flex-col items-center">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-12 h-12 mb-2">
                         <p>HTML</p>
@@ -122,7 +121,7 @@
             
     
             <!-- Projects Section -->
-            <div id="project" class="p-5 md:p-20 flex-col flex bg-amber-50 items-center shadow-[0_0_30px_rgba(0,0,0,1)] shadow-gray-400 rounded-xl min-h-screen justify-around overflow-hidden">
+            <div id="project" class="project p-5 md:p-20 flex-col flex bg-amber-50 items-center shadow-[0_0_30px_rgba(0,0,0,1)] shadow-gray-400 rounded-xl min-h-screen justify-around overflow-hidden">
                 <h1 class="text-2xl underline text-center">Projects</h1>
     
                 <div class="container flex flex-col-reverse md:flex-row md:space-x-10 justify-center md:justify-between w-full bg-amber-50">
@@ -215,7 +214,7 @@
             </div>
     
 <!-- Contact Section -->
-<div id="contact" class="bg-white shadow-gray shadow-[0_0_30px_rgba(0,0,0,0.5)] w-full rounded-xl p-0 border border-stone-600">
+<div id="contact" class="appear-box bg-white shadow-gray shadow-[0_0_30px_rgba(0,0,0,0.5)] w-full rounded-xl p-0 border border-stone-600">
     <form action="https://formspree.io/f/xyzjgjez" method="POST" class="p-5 bg-gray-100 rounded-lg max-w-md mx-auto">
         <h2 class="text-xl mb-4 font-semibold">Send Me a Message</h2>
       
